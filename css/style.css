@@ -1,0 +1,65 @@
+
+
+body {
+  text-align: center;
+  font-family: 'oblique', Helvetica, sans-serif;
+  background: url(http://media.defenceindustrydaily.com/images/AIR_C-130J_lg.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.name {
+  font-size: 48px;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkblue;
+}
+.ff {
+  max-height: 20px;
+}
+.ss {
+  max-height: 20px;
+}
+
+table {
+  margin-left:auto;
+  margin-right:auto;
+  width: 551px;
+  margin-top: 80px;
+}
+td {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  font-size: 120px;
+  border: 2px solid white;
+}
+
+.p1 {
+  background: rgb(0, 0, 0) transparent;
+}
+
+.zero{
+  display: inline;
+  font-size: 14px;
+}
+#players > div {
+  display: inline-block;
+  padding-right: 25px;
+  color: black;
+
+}
+.button {
+  float: right;
+  margin-left: 190px;
+  position: absolute;
+}
+
+@media screen and (max-width: 900px){
+  [class*="col-"]
+  width: 100%;
+}
+@media screen and (min-width: 900px) {
+    body {
+        background-image: images/p2.jpg;
+    }
+}
