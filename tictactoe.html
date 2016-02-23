@@ -4,11 +4,13 @@
   <title>Tic Tac Toe</title>
   <meta name="viewport" content="width=1200px" />
 
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <script src = "https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="js/tictactoe.js"></script>
 
 </head>
-<body>
- <div>
+<body >
+ <div id="players">
   <p class="name">Tic Tac Toe</p>
  </div>
 
@@ -18,26 +20,33 @@
 
 
   <div id="players">
-    <!-- <div id="X" class="">Player X</div> -->
-    <!-- <div id="O" class="">Player O</div> -->
-    <input type="button" class="button" value="New Game">
+    <!-- <div id="X" class="">Player X</div>
+    <div id="O" class="">Player O</div> -->
+
+<div class="game"><a href="#" id="reset" class="btn-success">Restart</a></div></div>
+</div>
   </div>
-  <table>
-    <tr>
-      <td id="0"></td>
-      <td id="1"></td>
-      <td id="2"></td>
+
+  <table id="game">
+    <tr class = "row1">
+      <td id="sqr1"></td>
+      <td id="sqr2"></td>
+      <td id="sqr3"></td>
     </tr>
-    <tr>
-      <td id="3"></td>
-      <td id="4"></td>
-      <td id="5"></td>
+    <tr class = "row2">
+      <td id="sqr4"></td>
+      <td id="sqr5"></td>
+      <td id="sqr6"></td>
     </tr>
-    <tr>
-      <td id="6"></td>
-      <td id="7"></td>
-      <td id="8"></td>
+    <tr class = "row3">
+      <td id="sqr7"></td>
+      <td id="sqr8"></td>
+      <td id="sqr9"></td>
     </tr>
   </table>
+
+
+<!-- <canvas id="c1" onclick="canvasClicked(1)">
+</canvas> -->
 </body>
 </html>
